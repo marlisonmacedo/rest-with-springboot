@@ -1,1 +1,10 @@
-spring.application.name=rest-with-springboot
+spring:
+  application:
+    name: rest-with-springboot
+
+server:
+  error:
+    include-message: never
+    include-binding-errors: never
+    include-stacktrace: never
+    include-exception: false
